@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: wheat;
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+}
+
+.checked {
+    background-color: rgb(165, 86, 86);
+}
+
+.bomb {
+    background-color: rgb(121, 66, 144);
+}
